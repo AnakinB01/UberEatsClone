@@ -5,8 +5,8 @@ public class DeliveryDriver extends User{
 	private String car;
 	private boolean safetyCheck;
 	
-	public DeliveryDriver(String name, String email, String phone, String dob, int driverID, String licence, String car){
-		super(name, email, phone, dob);
+	public DeliveryDriver(String firstname, String lastname, String email, int phoneNo, String dateOfBirth, int driverID, String licence, String car){
+		super(firstname, lastname, email, phoneNo, dateOfBirth);
 		this.driverID = driverID;
 		this.licence = licence;
 		this.car = car;
